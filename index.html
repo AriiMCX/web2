@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="uploadButton">Your Videos</button>
+    <input type="file" id="fileInput" accept="video/*" hidden>
+    <button id="shareButton" hidden>Share Your Video</button>
+    <div id="progressContainer" hidden>
+      <div id="progressBar"></div>
+      <span id="progressText">0%</span>
+    </div>
+    <a id="videoLink" href="#" target="_blank" style="display:none;">View Your Video</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
